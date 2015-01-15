@@ -13,11 +13,11 @@ void game(){
                         if(mouse_x<50&&mouse_y<50){
                                                    if(b==NULL){
                                                    if(flag==1){
-                                                               b=load_bitmap("C:/images/green.bmp",NULL);
+                                                               b=load_bitmap("green.bmp",NULL);
                                                                flag=0;
                                                                }
                                                    else{
-                                                        b=load_bitmap("C:/images/red.bmp",NULL);
+                                                        b=load_bitmap("red.bmp",NULL);
                                                         flag=1;
                                                         }
                                                     blit(b,screen,0,0,0,0,50,50);
@@ -28,11 +28,11 @@ void game(){
                          if((mouse_x>50&&mouse_x<100)&& mouse_y<50){
                                                                     if(b1==NULL){
                                                                     if(flag==1){
-                                                               b1=load_bitmap("C:/images/green.bmp",NULL);
+                                                               b1=load_bitmap("green.bmp",NULL);
                                                                flag=0;
                                                                }
                                                    else{
-                                                        b1=load_bitmap("C:/images/red.bmp",NULL);
+                                                        b1=load_bitmap("red.bmp",NULL);
                                                         flag=1;
                                                         }
                                                     blit(b1,screen,0,0,50,0,50,50);
@@ -43,11 +43,11 @@ void game(){
                           if((mouse_x>100&&mouse_x<150)&&mouse_y<50 ){
                                                                   if(b2==NULL){  
                                                                     if(flag==1){
-                                                               b2=load_bitmap("C:/images/green.bmp",NULL);
+                                                               b2=load_bitmap("green.bmp",NULL);
                                                                flag=0;
                                                                }
                                                    else{
-                                                        b2=load_bitmap("C:/images/red.bmp",NULL);
+                                                        b2=load_bitmap("red.bmp",NULL);
                                                         flag=1;
                                                         }
                                                     blit(b2,screen,0,0,100,0,50,50);
@@ -58,11 +58,11 @@ void game(){
                          if(mouse_x<50&&(mouse_y>50&&mouse_y<100)){
                                                                    if(b3==NULL){
                                                                    if(flag==1){
-                                                               b3=load_bitmap("C:/images/green.bmp",NULL);
+                                                               b3=load_bitmap("green.bmp",NULL);
                                                                flag=0;
                                                                }
                                                    else{
-                                                        b3=load_bitmap("C:/images/red.bmp",NULL);
+                                                        b3=load_bitmap("red.bmp",NULL);
                                                         flag=1;
                                                         }
                                                     blit(b3,screen,0,0,0,50,50,50);
@@ -74,11 +74,11 @@ void game(){
                                                                                   if(b4==NULL){
                                                                                   
                                                                                   if(flag==1){
-                                                               b4=load_bitmap("C:/images/green.bmp",NULL);
+                                                               b4=load_bitmap("green.bmp",NULL);
                                                                flag=0;
                                                                }
                                                    else{
-                                                        b4=load_bitmap("C:/images/red.bmp",NULL);
+                                                        b4=load_bitmap("red.bmp",NULL);
                                                         flag=1;
                                                         }
                                                     blit(b4,screen,0,0,50,50,50,50);
@@ -90,11 +90,11 @@ void game(){
                                                                                   if(b5==NULL){ 
                                                                                    
                                                                                    if(flag==1){
-                                                               b5=load_bitmap("C:/images/green.bmp",NULL);
+                                                               b5=load_bitmap("green.bmp",NULL);
                                                                flag=0;
                                                                }
                                                    else{
-                                                        b5=load_bitmap("C:/images/red.bmp",NULL);
+                                                        b5=load_bitmap("red.bmp",NULL);
                                                         flag=1;
                                                         }
                                                     blit(b5,screen,0,0,100,50,50,50);
@@ -106,11 +106,11 @@ void game(){
                                                                        if(b6==NULL){
                                                                        
                                                                        if(flag==1){
-                                                               b6=load_bitmap("C:/images/green.bmp",NULL);
+                                                               b6=load_bitmap("green.bmp",NULL);
                                                                flag=0;
                                                                }
                                                    else{
-                                                        b6=load_bitmap("C:/images/red.bmp",NULL);
+                                                        b6=load_bitmap("red.bmp",NULL);
                                                         flag=1;
                                                         }
                                                     blit(b6,screen,0,0,0,100,50,50);
@@ -121,11 +121,11 @@ void game(){
                            if((mouse_x>50&&mouse_x<100)&&(mouse_y>100&&mouse_y<150)){
                                                                  if(b7==NULL){                    
                                                                                      if(flag==1){
-                                                               b7=load_bitmap("C:/images/green.bmp",NULL);
+                                                               b7=load_bitmap("green.bmp",NULL);
                                                                flag=0;
                                                                }
                                                    else{
-                                                        b7=load_bitmap("C:/images/red.bmp",NULL);
+                                                        b7=load_bitmap("red.bmp",NULL);
                                                         flag=1;
                                                         }
                                                     blit(b7,screen,0,0,50,100,50,50);
@@ -138,11 +138,11 @@ void game(){
                                                                                        
                                                                                       if(b8==NULL){ 
                                                                                        if(flag==1){
-                                                               b8=load_bitmap("C:/images/green.bmp",NULL);
+                                                               b8=load_bitmap("green.bmp",NULL);
                                                                flag=0;
                                                                }
                                                    else{
-                                                        b8=load_bitmap("C:/images/red.bmp",NULL);
+                                                        b8=load_bitmap("red.bmp",NULL);
                                                         flag=1;
                                                         }
                                                     blit(b8,screen,0,0,100,100,50,50);
