@@ -209,7 +209,7 @@ void init() {
 	set_color_depth(depth);
 	res = set_gfx_mode(GFX_AUTODETECT_WINDOWED, 180, 150, 0, 0);
 	if (res != 0) {
-		allegro_message(allegro_error);
+	  allegro_message("%s\n",allegro_error);
 		exit(-1);
 	}
 
